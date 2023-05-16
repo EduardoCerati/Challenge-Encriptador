@@ -1,0 +1,160 @@
+ *{
+    background: #f3f5fc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+} 
+
+.logo {
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 8%;     
+}
+
+main{
+    display:flex;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    margin-bottom: 35px;
+}
+
+.text-area{
+    border:none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+.text-area:focus{
+    outline:none;
+}
+
+::placeholder {
+    color: #0A3871
+}
+ 
+.mensaje{
+    background: white;
+    background-image: url("imagenes/Muñecomuñeco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 24px;
+    color:#0a3871;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+    box-shadow:0px 0px 50px 3px darkgrey;
+    /*position: fixed;*/
+
+}
+
+
+.mensaje::focus{
+    outline: none;
+
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.boton-encriptar{
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.boton-encriptar:hover{
+    transform: scale(1.1);
+}
+
+.boton-encriptar:active{
+    background: white;
+    color: #0a3871;
+}
+
+.boton-desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.boton-desencriptar:hover{
+    transform: scale(1.1);
+}
+
+.boton-desencriptar:active{
+    background: white;
+    color: #0a3871;
+}
+
+
+.copiar{
+    display:flex;
+}
+
+
+.boton-copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 33px;
+    position: center;
+    width: 336px;
+
+}
+
+.boton-copiar:hover{
+    transform: scale(1.1);
+}
+
+.boton-copiar:active{
+    background: #d8dfe8;
+    color: white;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.rodapie{
+    background-color: #0A3871;
+    color: #d8dfe8;
+    text-align: center;
+    font-size: 15px;
+    opacity: 20%;
+    margin: 0;
+    border:0;
+    display: block;
+    
+}
+
+
+/*Estas caracteristicas fueron tomadas
+del reset style para eliminar los espacios el footer en los laterales extremos*/
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
